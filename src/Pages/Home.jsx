@@ -10,6 +10,7 @@ import imgA from "../assests/Img-a.png";
 import imgB from "../assests/Img-b.png";
 import imgC from "../assests/Img-c.png";
 import imgD from "../assests/Img-d.png";
+import GoogleAuth from "../firebase";
 
 function Home() {
   return (
@@ -30,7 +31,7 @@ function Home() {
             <h5>Ready to watch? Sign In to continue!</h5>
           </div>
           <div>
-            <Button>Sign In</Button>
+            <Button onClick={GoogleAuth}>Sign In</Button>
           </div>
         </div>
       </div>
@@ -70,7 +71,7 @@ function Home() {
             <h5>Ready to watch? Sign In to continue!</h5>
           </div>
           <div>
-            <Button>Sign In</Button>
+            <Button onClick={GoogleAuth}>Sign In</Button>
           </div>
         </div>
         <hr />
