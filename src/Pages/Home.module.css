@@ -1,4 +1,10 @@
-.main {
+.upper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main{
   height: 100vh;
   width: 100vw;
   background-image: linear-gradient(
@@ -10,4 +16,26 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.lower{
+  background-color: black;
+  width:100vw;
+  color:white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr{
+  width:100%;
+  height: 0.5rem !important;
+}
+
+.faq{
+  width:80%;
+}
+
+.faqtext{
+  margin:5rem 0 0 0;
 }
