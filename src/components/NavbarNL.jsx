@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./NavbarNL.module.css";
 import Netflix from "../assests/Netflix-Logo.png";
 import Button from "../components/Button";
@@ -10,7 +11,9 @@ function NavbarNL() {
         <img className={styles.img} src={Netflix} alt="logo" />
       </div>
       <div>
-        <Button>Sign In</Button>
+        <Link to="/whoiswatching">
+          <Button>Sign In</Button>
+        </Link>
       </div>
     </div>
   );

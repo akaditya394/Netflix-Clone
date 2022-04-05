@@ -13,37 +13,59 @@ function WhoIsWatching() {
     <div>
       <div className={styles.logoDiv}>
         <div>
-          <img className={styles.logo} src={NetflixLogo} alt="netflix-logo" />
+          <Link to="/">
+            <img className={styles.logo} src={NetflixLogo} alt="netflix-logo" />
+          </Link>
         </div>
       </div>
       <div className={styles.main}>
-        <div>
+        <div className="animate__animated animate__fadeIn">
           <h1>Who's watching?</h1>
         </div>
         <div className={styles.wisContainer}>
           <div className={styles.usera}>
             <Link to="/browse">
-              <img className={styles.img} src={UserA} alt="userA" />
+              <img
+                className={`animate__animated animate__fadeIn ${styles.img}`}
+                src={UserA}
+                alt="userA"
+              />
             </Link>
           </div>
           <div className={styles.userb}>
             <Link to="/browse">
-              <img className={styles.img} src={UserB} alt="userB" />
+              <img
+                className={`animate__animated animate__fadeIn ${styles.img}`}
+                src={UserB}
+                alt="userB"
+              />
             </Link>
           </div>
           <div className={styles.userc}>
             <Link to="/browse">
-              <img className={styles.img} src={UserC} alt="userC" />
+              <img
+                className={`animate__animated animate__fadeIn ${styles.img}`}
+                src={UserC}
+                alt="userC"
+              />
             </Link>
           </div>
           <div className={styles.userd}>
             <Link to="/browse">
-              <img className={styles.img} src={UserD} alt="userD" />
+              <img
+                className={`animate__animated animate__fadeIn ${styles.img}`}
+                src={UserD}
+                alt="userD"
+              />
             </Link>
           </div>
           <div className={styles.usere}>
             <Link to="/browse">
-              <img className={styles.img} src={UserE} alt="userE" />
+              <img
+                className={`animate__animated animate__fadeIn ${styles.img}`}
+                src={UserE}
+                alt="userE"
+              />
             </Link>
           </div>
         </div>
