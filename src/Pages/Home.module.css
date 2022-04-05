@@ -1,10 +1,10 @@
-.upper{
+.upper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.main{
+.main {
   height: 100vh;
   width: 100vw;
   background-image: linear-gradient(
@@ -18,49 +18,55 @@
   background-size: cover;
 }
 
-h1{
+.content {
+  width: 100%;
+}
+
+h1 {
   font-size: 3.5rem;
 }
-h5{
-  font-size:1.5rem;
+h5 {
+  font-size: 1.5rem;
   font-weight: lighter;
 }
 
-.cta{
+.cta {
   text-align: center;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  color:white;
-  margin:12rem 0 0 0;
-  height:8rem;
+  color: white;
+  margin: 12rem 0 5rem 0;
+  height: 8rem;
 }
 
-.nav{
-  display:flex;
+.nav {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.lower{
+.lower {
   background-color: black;
-  width:100vw;
-  color:white;
-  display:flex;
+  width: 100vw;
+  color: white;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-hr{
-  width:100%;
+hr {
+  width: 100%;
   height: 0.5rem !important;
 }
 
-.faq{
-  width:80%;
+.faq {
+  width: 80%;
 }
-
-.faqtext{
-  margin:5rem 0 0 0;
+.faqheading {
+  text-align: center;
+}
+.faqtext {
+  margin: 5rem 0 0 0;
 }
