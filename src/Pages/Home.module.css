@@ -18,6 +18,12 @@
   background-size: cover;
 }
 
+.nav{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .lower{
   background-color: black;
   width:100vw;
