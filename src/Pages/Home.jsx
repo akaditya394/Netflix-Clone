@@ -10,7 +10,7 @@ import imgA from "../assests/Img-a.png";
 import imgB from "../assests/Img-b.png";
 import imgC from "../assests/Img-c.png";
 import imgD from "../assests/Img-d.png";
-import GoogleAuth from "../firebase";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -31,7 +31,9 @@ function Home() {
             <h5>Ready to watch? Sign In to continue!</h5>
           </div>
           <div>
-            <Button onClick={GoogleAuth}>Sign In</Button>
+            <Link to="/whoiswatching">
+              <Button>Sign In</Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -71,7 +73,9 @@ function Home() {
             <h5>Ready to watch? Sign In to continue!</h5>
           </div>
           <div>
-            <Button onClick={GoogleAuth}>Sign In</Button>
+            <Link to="/whoiswatching">
+              <Button>Sign In</Button>
+            </Link>
           </div>
         </div>
         <hr />
