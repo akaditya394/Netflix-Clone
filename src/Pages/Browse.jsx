@@ -3,6 +3,7 @@ import styles from "./Browse.module.css";
 import Navbar from "../components/Navbar";
 import Suggestions from "../components/Suggestions";
 import PeakyBlinders from "../assests/PeakyBlinders5.mp4";
+import PBL from "../assests/PeakyBlindersLogo.png";
 import PBPoster from "../assests/PBPoster.jpg";
 import Footer from "../components/Footer";
 
@@ -16,11 +17,14 @@ function Browse() {
           <source src={PeakyBlinders} type="video/ogg" />
           Your browser does not support the video tag.
         </video>
+        <div className={styles.pbl}>
+          <img src={PBL} alt="pbl" />
+        </div>
       </div>
-      <Suggestions />
-      <Suggestions />
-      <Suggestions />
-      <Footer className={styles.footer}/>
+      <Suggestions heading="Trending" />
+      <Suggestions heading="US TV Comedies about Friendship" />
+      <Suggestions heading="Only on Netflix" />
+      <Footer className={styles.footer} />
     </div>
   );
 }

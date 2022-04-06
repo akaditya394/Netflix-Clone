@@ -5,15 +5,11 @@
     align-items: center;
     width: 100%;
     color:white;
-    height:20rem;
-    margin:3rem 0 5rem 0;
+    height:24rem;
+    margin:2rem 0 4rem 0;
     overflow-x: scroll;
     white-space: nowrap;}
  
-
-
-
-
 
 .movies{
     display: flex;

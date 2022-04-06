@@ -20,8 +20,8 @@ code {
 }
 
 ::-webkit-scrollbar{
-  height: 1rem;
-  width: 0.5rem;
+  height: 0.4rem;
+  width: 0;
   border-radius:100vw;
   background: rgb(255, 0, 0);
 }
