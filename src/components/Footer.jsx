@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
 
-function Footer() {
+function Footer(props) {
   return (
     <div className={styles.footerMain}>
       <div>Questions? Call 000-800-040-1843</div>
