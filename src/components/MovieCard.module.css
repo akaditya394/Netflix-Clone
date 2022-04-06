@@ -1,0 +1,14 @@
+.img {
+  border-radius: 2rem;
+}
+
+.movieCard {
+  transition: 5s;
+}
+
+.movieCard:hover {
+  cursor: pointer;
+  z-index: 1;
+  height: 10rem;
+  width: 10rem;
+}

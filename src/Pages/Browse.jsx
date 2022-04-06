@@ -18,6 +18,8 @@ function Browse() {
         </video>
       </div>
       <Suggestions />
+      <Suggestions />
+      <Suggestions />
       <Footer className={styles.footer}/>
     </div>
   );

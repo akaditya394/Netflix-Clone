@@ -34,7 +34,22 @@
   width: 2.5rem;
 }
 
-video{
-    height:100vh;
-    width:100vw;
+video {
+  height: 100vh;
+  width: 100vw;
+}
+
+@media (max-width: 1024px) {
+  .leftSide {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rightSide {
+    display: hidden;
+  }
+  .items {
+    display: none;
+  }
 }

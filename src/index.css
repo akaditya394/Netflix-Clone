@@ -3,6 +3,7 @@ html {
   margin: 0;
   background-color: black;
   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  overflow-x:hidden;
 }
 body {
   margin: 0;
@@ -16,4 +17,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+::-webkit-scrollbar{
+  height: 1rem;
+  width: 0.5rem;
+  border-radius:100vw;
+  background: rgb(255, 0, 0);
+}
+
+::-webkit-scrollbar-thumb{
+  border: 1px solid rgb(255, 0, 0);
+  border-radius:100vw;
+  background: rgb(255, 104, 104);
 }

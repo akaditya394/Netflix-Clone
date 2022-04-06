@@ -42,7 +42,7 @@ video[poster]{
 } */
 
 .navbar {
-  position: relative;
+  position: fixed;
   color: white;
   z-index: 1;
   width: 100%;

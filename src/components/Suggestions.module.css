@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color:white;
+    height:20rem;
+    margin:3rem 0 5rem 0;
+    overflow-x: scroll;
+    white-space: nowrap;}
+ 
+
+
+
+
+
+.movies{
+    display: flex;
+    gap:2rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
